@@ -1,5 +1,5 @@
 import Navbary from "../components/Navbar";
-import Footer2 from "../components/Footer2";
+import Footer from "../components/Footer";
 import Arealogin from "../components/Arealogin";
 
 function Login() {
@@ -8,7 +8,7 @@ function Login() {
             <Navbary />
             <Arealogin />
             
-            <Footer2 />
+            <Footer />
         </div>
     )
 }

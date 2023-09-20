@@ -188,6 +188,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
+
 }
 
 .bg{
@@ -232,7 +233,10 @@ form .coluna {
 .teste {
     background: #009fe3;
     width: 90%;
-
+    -webkit-user-drag: none;
+}
+.teste img{
+    -webkit-user-drag: none;
 }
 
 .gerenciaimg {
@@ -254,6 +258,25 @@ form .coluna {
 }
 
 .bg2{
-    margin: 15% 0;
+    margin: 5% 0;
     width: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputcompleto{
+    width: 25rem;
+}
+
+.inputmarg{
+    margin-right: 28px;
+}
+
+.butao2{
+    border: 0;
+    margin-bottom: 10px;
 }

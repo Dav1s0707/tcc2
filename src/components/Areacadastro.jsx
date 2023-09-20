@@ -25,23 +25,47 @@ function Areaegistro() {
       <div className="bg bg2">
         <div className="forms">
           <br />
-          <img src={gerencia} alt="" />
           <h2>Cadastro</h2>
           <form>
             <div>
-              <label>Email:</label>
+              <label>Nome da empresa:</label>
               <br />
-              <input type="email" />
+              <input className="inputcompleto inputs" type="text" />
             </div>
 
             <div>
-              <label>Senha:</label>
+              <label>Seu nome:</label>
               <br />
-              <input type="password" />
+              <input className="inputcompleto inputs" type="text" />
             </div>
+            <div className="linha">
+              <div className="inputmarg ">
+                <label>Telefone:</label>
+                <br />
+                <input type="text" className="inputs"/>
+              </div>
+              <div>
+                <label>E-mail</label>
+                <br />
+                <input type="email" className="inputs" />
+              </div>
+            </div>
+            <div className="linha">
+              <div className="inputmarg ">
+                <label>Senha:</label>
+                <br />
+                <input type="password" className="inputs" />
+              </div>
+              <div>
+                <label>Confirmar senha:</label>
+                <br />
+                <input type="password" className="inputs" />
+              </div>
+            </div>
+
             <br />
 
-            <button type="button" className="button">
+            <button type="button" className="button butao2">
               Entrar
             </button>
           </form>

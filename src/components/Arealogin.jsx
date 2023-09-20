@@ -11,7 +11,6 @@ function Arealogin() {
       <div className="forms">
         <div className="bg">
           <br />
-          <img src={gerencia} alt="" className="gerenciaimg" />
           <br />
           <h2>Login</h2>
 

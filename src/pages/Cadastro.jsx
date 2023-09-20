@@ -1,5 +1,5 @@
 import Navbary from "../components/Navbar";
-import Footer2 from "../components/Footer2";
+import Footer from "../components/Footer";
 import Areacadastro from "../components/Areacadastro";
 
 function Cadastro() {
@@ -8,7 +8,7 @@ function Cadastro() {
             <Navbary />
             <Areacadastro />
             
-            <Footer2 />
+            <Footer />
         </div>
     )
 }
