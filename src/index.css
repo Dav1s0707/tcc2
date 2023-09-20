@@ -190,6 +190,17 @@ body {
     width: 100%;
 }
 
+.bg{
+    background: #c1daec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 15px;
+    margin: 25% 0;
+}
+
 form .coluna {
     display: flex;
     flex-direction: column;
@@ -214,10 +225,12 @@ form .coluna {
 
 .butao {
     margin-top: 10px;
+    border-radius: 7px;
+    border: 0;
 }
 
 .teste {
-    background: #000;
+    background: #009fe3;
     width: 90%;
 
 }
@@ -231,4 +244,16 @@ form .coluna {
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+
+.inputs{
+    border-radius: 7px;
+    align-self: center;
+    background: #ffffff;
+    border: 0;
+}
+
+.bg2{
+    margin: 15% 0;
+    width: 40%;
 }

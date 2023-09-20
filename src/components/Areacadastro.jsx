@@ -1,43 +1,56 @@
 import gerencia from "../imgs/gerencia.png";
+import "../index.css";
 
 function Areaegistro() {
+  // const [email, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
+
+  // const handleEmailChange = (e) => {
+  //   setEmail(e.target.value);
+  // };
+
+  // const handlePasswordChange = (e) => {
+  //   setPassword(e.target.value);
+  // };
+
+  // const handleLogin = () => {
+  //   // Aqui você pode adicionar a lógica para autenticar o usuário
+  //   // usando o email e a senha fornecidos
+  //   console.log('Email:', email);
+  //   console.log('Password:', password);
+  // };
+
   return (
-    <div className="linha2">
-      <div  className="teste">
-        <h1>fads</h1>
-      </div>
-      <div className="forms">
-        <br />
-        <img src={gerencia} alt="" className="gerenciaimg" />
-        <br />
-        <h2>Cadastro</h2>
+    <div className="centro">
+      <div className="bg bg2">
+        <div className="forms">
+          <br />
+          <img src={gerencia} alt="" />
+          <h2>Cadastro</h2>
+          <form>
+            <div>
+              <label>Email:</label>
+              <br />
+              <input type="email" />
+            </div>
 
-        <form className="formulario">
-          <div className="coluna">
-            <label>Nome:</label>
-            <input />
-          </div>
+            <div>
+              <label>Senha:</label>
+              <br />
+              <input type="password" />
+            </div>
+            <br />
 
-          <div className="coluna">
-            <label>Email:</label>
-            <input />
-          </div>
-
-          <div className="coluna">
-            <label>Senha:</label>
-            <input />
-          </div>
-
-          <button className="butao" type="button">
-            Cadastrar
-          </button>
-        </form>
-        <p>
-          Já é cliente? <a href="/login">Clique aqui</a>
-        </p>
+            <button type="button" className="button">
+              Entrar
+            </button>
+          </form>
+          <p>
+            Ja é cliente? <a href="/login">Clique aqui</a>
+          </p>
+        </div>
       </div>
     </div>
   );
 }
-
 export default Areaegistro;
